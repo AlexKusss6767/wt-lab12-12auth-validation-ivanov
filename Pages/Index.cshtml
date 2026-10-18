@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<div class="container py-5">
+    <div class="p-5 mb-4 rounded-4 text-white shadow" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="container-fluid py-3">
+            <h1 class="display-5 fw-bold"><i class="bi bi-shop-window"></i> Добро пожаловать в WT-5 Store</h1>
+            <p class="col-md-8 fs-5">Система управления товарами на ASP.NET Core Razor Pages. Просматривайте каталог, добавляйте и редактируйте товары.</p>
+            <a asp-page="/Products/Index" class="btn btn-light btn-lg mt-2"><i class="bi bi-box-seam"></i> Перейти к товарам</a>
+        </div>
+    </div>
+</div>

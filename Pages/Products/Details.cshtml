@@ -1,0 +1,30 @@
+@page
+@model wt_lab5_5razor_ivanov.Pages.Products.DetailsModel
+
+@{
+    ViewData["Title"] = "Подробности товара";
+}
+
+<div class="container py-4">
+    <div class="card shadow-sm rounded-4">
+        <div class="card-body">
+            <h1 class="card-title"><i class="bi bi-box-seam text-primary"></i> @Model.Product.Name</h1>
+            <h6 class="card-subtitle mb-3 text-muted"><i class="bi bi-hash"></i> ID: @Model.Product.Id</h6>
+            <p class="card-text"><strong>Категория:</strong> @Model.Product.Category</p>
+            <p class="card-text"><strong>Цена:</strong> @Model.Product.Price ₽</p>
+            <p class="card-text"><strong>Описание:</strong> @Model.Product.Description</p>
+            <p class="card-text">
+                <strong>Статус:</strong>
+                @if (Model.Product.IsAvailable)
+                {
+                    <span class="badge bg-success">В наличии</span>
+                }
+                else
+                {
+                    <span class="badge bg-danger">Нет в наличии</span>
+                }
+            </p>
+            <a asp-page="./Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Назад к списку</a>
+        </div>
+    </div>
+</div>
