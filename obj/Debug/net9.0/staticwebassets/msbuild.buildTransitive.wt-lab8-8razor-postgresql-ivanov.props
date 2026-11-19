@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\wt-lab8-8razor-postgresql-ivanov.props" />
+</Project>

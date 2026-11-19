@@ -95,3 +95,4 @@ C:\Users\aleks\Desktop\WT\wt-lab5-5razor-ivanov\obj\Debug\net9.0\refint\wt-lab5-
 C:\Users\aleks\Desktop\WT\wt-lab5-5razor-ivanov\obj\Debug\net9.0\wt-lab5-5razor-ivanov.pdb
 C:\Users\aleks\Desktop\WT\wt-lab5-5razor-ivanov\obj\Debug\net9.0\wt-lab5-5razor-ivanov.genruntimeconfig.cache
 C:\Users\aleks\Desktop\WT\wt-lab5-5razor-ivanov\obj\Debug\net9.0\ref\wt-lab5-5razor-ivanov.dll
+C:\Users\aleks\Desktop\WT\wt-lab5-5razor-ivanov\obj\Debug\net9.0\wt-lab5-5razor-ivanov.sourcelink.json

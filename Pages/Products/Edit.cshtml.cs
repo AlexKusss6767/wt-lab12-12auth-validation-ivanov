@@ -1,41 +1,53 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using wt_lab5_5razor_ivanov.Models;
-using wt_lab5_5razor_ivanov.Data;
+using Microsoft.EntityFrameworkCore;
+using wt_lab8_8razor_postgresql_ivanov.Data;
+using wt_lab8_8razor_postgresql_ivanov.Models;
 
-namespace wt_lab5_5razor_ivanov.Pages.Products
+namespace wt_lab8_8razor_postgresql_ivanov.Pages.Products
 {
     public class EditModel : PageModel
     {
+        private readonly AppDbContext _context;
+
+        public EditModel(AppDbContext context)
+        {
+            _context = context;
+        }
+
         [BindProperty]
         public Product Product { get; set; } = new();
 
-        public IActionResult OnGet(int id)
+        public async Task<IActionResult> OnGetAsync(int? id)
         {
-            var existing = ProductStore.Products.FirstOrDefault(x => x.Id == id);
-            if (existing == null) return NotFound();
-            
-            Product = existing;
+            if (id == null) return NotFound();
+
+            var product = await _context.Products.FindAsync(id);
+            if (product == null) return NotFound();
+
+            Product = product;
             return Page();
         }
 
-        public IActionResult OnPost(int id)
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (id != Product.Id) return NotFound();
-
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            var existing = ProductStore.Products.FirstOrDefault(x => x.Id == id);
-            if (existing == null) return NotFound();
+            _context.Attach(Product).State = EntityState.Modified;
 
-            existing.Name = Product.Name;
-            existing.Category = Product.Category;
-            existing.Price = Product.Price;
-            existing.IsAvailable = Product.IsAvailable;
-            existing.Description = Product.Description;
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Products.Any(e => e.Id == Product.Id))
+                    return NotFound();
+                else throw;
+            }
 
             return RedirectToPage("./Index");
         }
