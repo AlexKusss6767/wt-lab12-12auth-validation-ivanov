@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w7f3DPIV2Fw=",
+  "dgSpecHash": "j7By1m6jp+Y=",
   "success": true,
-  "projectFilePath": "C:\\Учеба\\WT\\wt-lab8-8razor-postgresql-ivanov\\wt-lab8-8razor-postgresql-ivanov.csproj",
+  "projectFilePath": "C:\\Учеба\\WT\\wt-lab12-12auth-validation-ivanov\\wt-lab12-12auth-validation-ivanov.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleks\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\aleks\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

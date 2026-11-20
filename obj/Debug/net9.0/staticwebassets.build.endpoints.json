@@ -18561,13 +18561,13 @@
       ]
     },
     {
-      "Route": "wt-lab8-8razor-postgresql-ivanov.styles.css",
-      "AssetFile": "wt-lab8-8razor-postgresql-ivanov.styles.css.gz",
+      "Route": "wt-lab12-12auth-validation-ivanov.as3w8whavm.styles.css",
+      "AssetFile": "wt-lab12-12auth-validation-ivanov.styles.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001805054152"
+          "Quality": "0.001814882033"
         }
       ],
       "ResponseHeaders": [
@@ -18577,7 +18577,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -18585,7 +18585,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "550"
         },
         {
           "Name": "Content-Type",
@@ -18593,15 +18593,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bfc6Nsu/f1zyIpyzD5L+iQXyUKH0+Mu2fJNlwPMtCXI=\""
+          "Value": "\"R5rO/L/PyES0mnp0RJSiBi4TwZN27Nx30T11kW36SsI=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8=\""
+          "Value": "W/\"KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Nov 2026 17:19:52 GMT"
+          "Value": "Fri, 20 Nov 2026 07:52:32 GMT"
         },
         {
           "Name": "Vary",
@@ -18610,14 +18610,22 @@
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "as3w8whavm"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8="
+          "Value": "sha256-KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k="
+        },
+        {
+          "Name": "label",
+          "Value": "wt-lab12-12auth-validation-ivanov.styles.css"
         }
       ]
     },
     {
-      "Route": "wt-lab8-8razor-postgresql-ivanov.styles.css",
-      "AssetFile": "wt-lab8-8razor-postgresql-ivanov.styles.css",
+      "Route": "wt-lab12-12auth-validation-ivanov.as3w8whavm.styles.css",
+      "AssetFile": "wt-lab12-12auth-validation-ivanov.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18626,11 +18634,11 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
-          "Value": "1150"
+          "Value": "1151"
         },
         {
           "Name": "Content-Type",
@@ -18638,23 +18646,31 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8=\""
+          "Value": "\"KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Nov 2026 17:19:52 GMT"
+          "Value": "Fri, 20 Nov 2026 07:52:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "as3w8whavm"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8="
+          "Value": "sha256-KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k="
+        },
+        {
+          "Name": "label",
+          "Value": "wt-lab12-12auth-validation-ivanov.styles.css"
         }
       ]
     },
     {
-      "Route": "wt-lab8-8razor-postgresql-ivanov.styles.css.gz",
-      "AssetFile": "wt-lab8-8razor-postgresql-ivanov.styles.css.gz",
+      "Route": "wt-lab12-12auth-validation-ivanov.as3w8whavm.styles.css.gz",
+      "AssetFile": "wt-lab12-12auth-validation-ivanov.styles.css.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18663,7 +18679,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -18671,7 +18687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "550"
         },
         {
           "Name": "Content-Type",
@@ -18679,11 +18695,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bfc6Nsu/f1zyIpyzD5L+iQXyUKH0+Mu2fJNlwPMtCXI=\""
+          "Value": "\"R5rO/L/PyES0mnp0RJSiBi4TwZN27Nx30T11kW36SsI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Nov 2026 17:19:52 GMT"
+          "Value": "Fri, 20 Nov 2026 07:52:32 GMT"
         },
         {
           "Name": "Vary",
@@ -18692,19 +18708,27 @@
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "as3w8whavm"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Bfc6Nsu/f1zyIpyzD5L+iQXyUKH0+Mu2fJNlwPMtCXI="
+          "Value": "sha256-R5rO/L/PyES0mnp0RJSiBi4TwZN27Nx30T11kW36SsI="
+        },
+        {
+          "Name": "label",
+          "Value": "wt-lab12-12auth-validation-ivanov.styles.css.gz"
         }
       ]
     },
     {
-      "Route": "wt-lab8-8razor-postgresql-ivanov.zwzrlp3giy.styles.css",
-      "AssetFile": "wt-lab8-8razor-postgresql-ivanov.styles.css.gz",
+      "Route": "wt-lab12-12auth-validation-ivanov.styles.css",
+      "AssetFile": "wt-lab12-12auth-validation-ivanov.styles.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001805054152"
+          "Quality": "0.001814882033"
         }
       ],
       "ResponseHeaders": [
@@ -18714,7 +18738,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -18722,7 +18746,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "550"
         },
         {
           "Name": "Content-Type",
@@ -18730,15 +18754,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bfc6Nsu/f1zyIpyzD5L+iQXyUKH0+Mu2fJNlwPMtCXI=\""
+          "Value": "\"R5rO/L/PyES0mnp0RJSiBi4TwZN27Nx30T11kW36SsI=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8=\""
+          "Value": "W/\"KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Nov 2026 17:19:52 GMT"
+          "Value": "Fri, 20 Nov 2026 07:52:32 GMT"
         },
         {
           "Name": "Vary",
@@ -18747,22 +18771,14 @@
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "zwzrlp3giy"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8="
-        },
-        {
-          "Name": "label",
-          "Value": "wt-lab8-8razor-postgresql-ivanov.styles.css"
+          "Value": "sha256-KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k="
         }
       ]
     },
     {
-      "Route": "wt-lab8-8razor-postgresql-ivanov.zwzrlp3giy.styles.css",
-      "AssetFile": "wt-lab8-8razor-postgresql-ivanov.styles.css",
+      "Route": "wt-lab12-12auth-validation-ivanov.styles.css",
+      "AssetFile": "wt-lab12-12auth-validation-ivanov.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18771,11 +18787,11 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
-          "Value": "1150"
+          "Value": "1151"
         },
         {
           "Name": "Content-Type",
@@ -18783,31 +18799,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8=\""
+          "Value": "\"KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Nov 2026 17:19:52 GMT"
+          "Value": "Fri, 20 Nov 2026 07:52:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "zwzrlp3giy"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-k1cj1xPKxZE7QsWaYlat5pWIUktfmTVca2PkpG7m4H8="
-        },
-        {
-          "Name": "label",
-          "Value": "wt-lab8-8razor-postgresql-ivanov.styles.css"
+          "Value": "sha256-KvPNeALDrH5IjZLa5Vt93tZX7JhnxwDevGNY3i6hM/k="
         }
       ]
     },
     {
-      "Route": "wt-lab8-8razor-postgresql-ivanov.zwzrlp3giy.styles.css.gz",
-      "AssetFile": "wt-lab8-8razor-postgresql-ivanov.styles.css.gz",
+      "Route": "wt-lab12-12auth-validation-ivanov.styles.css.gz",
+      "AssetFile": "wt-lab12-12auth-validation-ivanov.styles.css.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18816,7 +18824,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -18824,7 +18832,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "550"
         },
         {
           "Name": "Content-Type",
@@ -18832,11 +18840,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bfc6Nsu/f1zyIpyzD5L+iQXyUKH0+Mu2fJNlwPMtCXI=\""
+          "Value": "\"R5rO/L/PyES0mnp0RJSiBi4TwZN27Nx30T11kW36SsI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Nov 2026 17:19:52 GMT"
+          "Value": "Fri, 20 Nov 2026 07:52:32 GMT"
         },
         {
           "Name": "Vary",
@@ -18845,16 +18853,8 @@
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "zwzrlp3giy"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Bfc6Nsu/f1zyIpyzD5L+iQXyUKH0+Mu2fJNlwPMtCXI="
-        },
-        {
-          "Name": "label",
-          "Value": "wt-lab8-8razor-postgresql-ivanov.styles.css.gz"
+          "Value": "sha256-R5rO/L/PyES0mnp0RJSiBi4TwZN27Nx30T11kW36SsI="
         }
       ]
     }

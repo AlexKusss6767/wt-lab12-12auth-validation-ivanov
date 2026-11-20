@@ -3,19 +3,25 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WT-5 Store</title>
+    <title>@ViewData["Title"] - WT-12</title>
+    
+    <!-- Подключаем Bootstrap и Иконки -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body class="d-flex flex-column min-vh-100">
     <header>
+        <!-- Наш красивый градиентный Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);">
             <div class="container">
-                <a class="navbar-brand fw-bold" asp-page="/Index"><i class="bi bi-shop"></i> WT-5 Store</a>
+                <a class="navbar-brand fw-bold" asp-page="/Index">
+                    <i class="bi bi-shop"></i> WT Store
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
@@ -24,27 +30,41 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-page="/Products/Index"><i class="bi bi-box-seam"></i> Товары</a>
                         </li>
+                        
+                        <!-- НОВЫЕ ССЫЛКИ ДЛЯ 12 ЛАБЫ -->
                         <li class="nav-item">
-                            <a class="nav-link" asp-page="/Products/Create"><i class="bi bi-plus-circle"></i> Добавить</a>
+                            <a class="nav-link" asp-page="/Login"><i class="bi bi-box-arrow-in-right"></i> Войти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Profile"><i class="bi bi-person"></i> Профиль</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+    <!-- Основной контент страниц -->
     <div class="container flex-grow-1">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+
+    <!-- Подвал -->
     <footer class="mt-auto py-4" style="background: #212529; color: #adb5bd;">
         <div class="container text-center">
-            <p class="mb-0"><i class="bi bi-c-circle"></i> 2025 WT-5 Store · Razor Pages</p>
+            <p class="mb-0">
+                <i class="bi bi-c-circle"></i> 2026 WT Store · Лабораторная работа WT-12
+            </p>
         </div>
     </footer>
+
+    <!-- Скрипты -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -17,9 +17,12 @@ if (!string.IsNullOrWhiteSpace(databaseUrl))
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
 builder.Services.AddRazorPages();
 
+// Включаем поддержку сессий
+builder.Services.AddSession(); 
+
 var app = builder.Build();
 
-// Автоматическое применение миграций при запуске
+// Автоматическое применение миграций
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
@@ -35,6 +38,9 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
+// Подключаем сессии (строго перед авторизацией)
+app.UseSession(); 
 app.UseAuthorization();
 app.MapRazorPages();
 

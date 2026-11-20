@@ -1,0 +1,18 @@
+@page
+@model wt_lab8_8razor_postgresql_ivanov.Pages.ProfileModel
+@{
+    ViewData["Title"] = "Личный кабинет";
+}
+
+<div class="container py-5">
+    <div class="card shadow-sm rounded-4">
+        <div class="card-body text-center p-5">
+            <h1 class="mb-4"><i class="bi bi-person-circle text-primary"></i> Личный кабинет</h1>
+            <p class="fs-4">Пользователь: <strong>@Model.UserLogin</strong></p>
+            
+            <form method="post">
+                <button type="submit" class="btn btn-danger mt-3">Выйти</button>
+            </form>
+        </div>
+    </div>
+</div>

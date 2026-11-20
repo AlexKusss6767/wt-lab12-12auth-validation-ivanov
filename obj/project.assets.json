@@ -2789,11 +2789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Учеба\\WT\\wt-lab8-8razor-postgresql-ivanov\\wt-lab8-8razor-postgresql-ivanov.csproj",
-      "projectName": "wt-lab8-8razor-postgresql-ivanov",
-      "projectPath": "C:\\Учеба\\WT\\wt-lab8-8razor-postgresql-ivanov\\wt-lab8-8razor-postgresql-ivanov.csproj",
+      "projectUniqueName": "C:\\Учеба\\WT\\wt-lab12-12auth-validation-ivanov\\wt-lab12-12auth-validation-ivanov.csproj",
+      "projectName": "wt-lab12-12auth-validation-ivanov",
+      "projectPath": "C:\\Учеба\\WT\\wt-lab12-12auth-validation-ivanov\\wt-lab12-12auth-validation-ivanov.csproj",
       "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Учеба\\WT\\wt-lab8-8razor-postgresql-ivanov\\obj\\",
+      "outputPath": "C:\\Учеба\\WT\\wt-lab12-12auth-validation-ivanov\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
